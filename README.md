@@ -22,7 +22,12 @@
     ```shell script
     python manage.py migrate
     ```
-3. Now test your web app is it working by go to [http://127.0.0.1:8000/polls](http://127.0.0.1:8000/polls)
+3. Now test your web app is it working by 
+     ```shell script
+    python manage.py runserver
+    ```
+    then go to [http://127.0.0.1:8000/polls](http://127.0.0.1:8000/polls)
+    
 4. If your web app is working well then create your account to access the admin site:
     ```shell script
     python manage.py createsuperuser
