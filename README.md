@@ -18,7 +18,7 @@
     ```shell script
     git clone git@github.com:ChatchapongC/polls-app-django.git
     ```
-2. After you clone the repository then go to the directory and type:
+2. After you clone the repository change file **_.env.example_** to _**.env**_ then go to the directory and type:
     ```shell script
     python manage.py migrate
     ```
