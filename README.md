@@ -1,4 +1,4 @@
- ## Django Polls Application  
+ ## Django Polls Application [![Build Status](https://travis-ci.com/ChatchapongC/django-polls.svg?branch=master)](https://travis-ci.com/ChcatchapongC/django-pollls) 
  Django application to conduct the Web-based polls and record voting score for each polls.  
  Moreover, This app can set the duration for voting.
  ## Requirements
