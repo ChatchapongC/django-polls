@@ -16,6 +16,7 @@ before_script:
   - python manage.py makemigrations
   - python manage.py migrate
 script: 
-  - python -m unittest discover -p "tests.py"
+  - python manage.py shell
+  - python manage.py test polls
 env:
   - TRAVIS_SECURE_ENV_VARS=true
