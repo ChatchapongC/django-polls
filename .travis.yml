@@ -15,4 +15,4 @@ env:
     
 # script to run tests. Script can have many commands, one per line.
 script: 
-  - python manage.py test
+  - coverrage run manage.py test
